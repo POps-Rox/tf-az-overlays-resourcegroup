@@ -24,14 +24,14 @@ This module uses the [AZ Regions Lookup](https://registry.terraform.io/modules/a
 
 ```hcl
 module "mod_location" {
-  source  = "azurenoops/overlays-azregions-lookup/azurerm"
+  source  = "POps-Rox/tf-az-overlays-azregions-lookup/azurerm"
   version = "~> 1.0"
 
   azure_region = var.location
 }
 
 module "mod_rg" {
-  source  = "azurenoops/overlays-resource-group/azurerm"
+  source  = "POps-Rox/tf-az-overlays-resource-group/azurerm"
   version = "~> 1.0"
 
   org_name              = "myorg"
