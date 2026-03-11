@@ -67,7 +67,7 @@ variable "use_location_short_name" {
 # CREATE THE RG
 # ---------------
 module "rg" {
-  source  = "azurenoops/overlays-resource-group/azurerm"
+  source  = "github.com/POps-Rox/tf-az-overlays-resourcegroup"
   version = "~> 1.0"
 
   // Resource group name and location
