@@ -14,7 +14,7 @@ Azure NoOps Accelerator terraform module that creates a Resource Group with opti
 
 ## Naming
 
-Resource naming is based on the [POps-Rox Naming Utils](https://registry.terraform.io/providers/POps-Rox/popsrox-utils/latest/docs/resources/popsrox_utils_resource_name) to generate resource names.
+Resource naming is based on the [POps-Rox Naming Utils](https://registry.terraform.io/providers/POps-Rox/popsrox-utils/latest/docs/resources/popsrox_resource_name) to generate resource names.
 
 ## AZ Regions Lookup
 
@@ -62,7 +62,7 @@ module "mod_rg" {
 |------|------|
 | [azurerm_management_lock.resource_group_level_lock](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/management_lock) | resource |
 | [azurerm_resource_group.main_rg](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group) | resource |
-| [popsrox_utils_resource_name.rg](https://registry.terraform.io/providers/POps-Rox/popsrox-utils/latest/docs/data-sources/popsrox_utils_resource_name) | data source |
+| [popsrox_resource_name.rg](https://registry.terraform.io/providers/POps-Rox/popsrox-utils/latest/docs/data-sources/popsrox_resource_name) | data source |
 
 ## Inputs
 
